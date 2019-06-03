@@ -1,0 +1,25 @@
+
+var fs = require('fs'); // 引入fs模块
+function deleteArr(path) {
+  var files = [];
+  if(fs.existsSync(path)) {
+    files = fs.readdirSync(path);
+    files.forEach(function(file, index) {
+      var curPath = path + "/" + file;
+      if(!fs.statSync(curPath).isDirectory()){
+        var bund =/^\S*(main|xilai)\S*(.js)$/g;
+        if(bund.test(curPath)){
+          fs.unlinkSync(curPath);// delete file
+        }
+      }
+      // if(fs.statSync(curPath).isDirectory()) { // 是不是文件夹，递归继续循环遍历
+      //   deleteArr(curPath);
+      // } else { // delete file
+      //   fs.unlinkSync(curPath);
+      // }
+    });
+    // fs.rmdirSync(path);//删除文件夹  地址
+  }
+}
+console.log('先删除文件！');
+deleteArr('build');

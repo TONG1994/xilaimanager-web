@@ -1,0 +1,45 @@
+//广告管理中图片样式
+.ant-upload-list-picture-card .ant-upload-list-item,.ant-upload.ant-upload-select-picture-card{
+  width: 144px;
+}
+.ant-upload-list-picture-card .ant-upload-list-item-info{
+  height: auto;
+}
+.ant-upload-list-picture-card .ant-upload-list-item{
+  padding: 0px;
+}
+
+.org-address-item {
+  .ant-form-item-label {
+    width: 16.66666667%;
+  }
+  .ant-form-item-control-wrapper {
+    width: 83.33333333%;
+  }
+}
+  //上传图片只能预览，不能删除
+  .orderImage .ant-upload-list-picture-card  .anticon-delete{
+      display: none;
+    }
+    //订单详情里的图片
+  .orderImage  .ant-upload-list-picture-card   .ant-upload-list-item-done{
+      margin-top: 10px;
+      margin-left: 38px;
+      margin-bottom: 10px;
+  }
+  .orderImage .ant-upload-list-picture-card .ant-upload-list-item-thumbnail, .ant-upload-list-picture-card .ant-upload-list-item-thumbnail img{
+     height: 111px;
+  }
+  .orderImage .ant-upload-list-picture-card .ant-upload-list-item{
+    height: 111px;
+  }
+.ant-table-tbody tr:nth-child(even){
+  background: #f2f6fd;
+}
+.demo .ant-form-item-label{
+  text-align:left;
+}
+#orderManagePage .ant-table-fixed-right table .ant-table-thead tr th{
+  text-align: center;
+}
+

@@ -1,0 +1,179 @@
+.log-wrap {
+    background-image: url("./xilai-bg1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    .banner-container{
+        width:1200px;
+        height:480px;
+        background: white;
+        position: absolute;
+        top:50%;
+        left:50%;
+        margin-top:-240px;
+        margin-left: -600px;
+        z-index: 2;
+        .container-left{
+            width:700px;
+            height: 480px;
+            float: left;
+            background-image: url("./left-bg.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            .banner-image{
+                width: 100%;
+                height: 480px;
+                a{
+                    width: 100%;
+                    height: 480px;
+                    display:block;
+                    img{
+                        width: 100%;
+                        height: 480px;
+                    }
+                }
+            }
+        }
+        .container-right{
+            width:444px;
+            height: 480px;
+            margin-right: 28px;
+            float: right;
+            background: white;
+            .content-wrap1 {
+                width: 100%;
+                height: 100%;
+                background: #fff;
+                padding: 15px 0;
+                z-index: 3;
+                .top-text{
+                    font-size: 32px;
+                    text-align: center;
+                    color: #585858;
+                    letter-spacing: 2px;
+                    font-weight: bold;
+                    margin-top: 70px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .button-style{
+        background-image: url("./login-bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .login-title {
+        position: absolute;
+        top: 40%;
+        transform: translateY(-240px);
+        width: 100%;
+        color: #fff;
+        font-size: 38px;
+        text-align: center;
+        display: none;
+    }
+    .content-wrap {
+        width: 446px;
+        height: 395px;
+        background: #fff;
+        border: 1px solid #333;
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-446px, -155px);
+        margin-left: 223px;
+        border-radius: 10px;
+        padding: 15px 0;
+        z-index: 3;
+        display: none;
+    }
+    .banner-activity{
+        width: 100%;
+        padding:20px 38px;
+        background-color: rgba(255,255,255,0.2);
+        margin-top:15px;
+        color:#ffffff;
+        font-size:13px;
+        line-height: 20px;
+    }
+    .banner-wrap {
+        float: left;
+        width: 400px;
+        height: 100%;
+        background: url("./xilai.jpg") center no-repeat;
+    }
+    .inner-wrap {
+        //width: 396px;
+        //margin-left: 50px;
+        .input-wrap {
+            width: 70%;
+            margin: 0 auto;
+            overflow: hidden;
+            height:378px
+        }
+        .input-wrap1 {
+            width: 70%;
+            margin: 0 auto;
+            overflow: hidden;
+            height:450px
+        }
+        .login-text {
+            color: #333;
+            font-size: 20px;
+            margin: 15px 0;
+            text-align: center;
+        }
+    }
+    .login-input {
+        border: 0;
+        border: 1px solid #d9d9d9;
+        border-radius: 5px;
+        &:focus {
+            outline: none;
+            border: 0!important;
+        }
+        .ant-input {
+            border: 0;
+            &:focus {
+                outline: none;
+                border: 0!important;
+            }
+        }
+    }
+    .login-foot{
+        color:#fff;
+        font-size: 12px;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        bottom:10px;
+        width: 100%;
+    }
+    .form-class {
+        position: absolute;
+        width: 100%;
+    }
+    .ant-alert{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap !important;
+        outline: 0 !important
+    }
+}
+.slick-slider{
+    overflow: hidden;
+    width: 100%;
+    height: 480px;
+}
+.ant-carousel .slick-dots li button{
+    height: 8px!important;
+}
+.ant-carousel .slick-dots li{
+    margin:-4px 3px;
+}

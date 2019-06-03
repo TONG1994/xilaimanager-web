@@ -1,0 +1,87 @@
+/* 详情样式*/
+.ant-modal-body{
+  .worksheet-modal-content{
+    .ant-timeline{
+      .worksheet-timeline-head{
+        .timeline-item-title{
+          font-weight: bold;
+        }
+        .timeline-item-name{
+          margin-left: 10px;
+        }
+        .timeline-item-time{
+          margin-left: 20px;
+        }
+      }
+      .worksheet-timeline-content{
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+/*工单处理界面的左边样式*/
+.worksheet-form-left{
+  .sw-input{
+    border: none;
+    color: rgba(0,0,0,.65);
+    padding: 0px 0px;
+  }
+  .coloring-input{
+    background-color: #FFFBE6; 
+    resize: none;
+  }
+  .dis-backColor{
+    background-color: white!important; 
+  }
+  .pic-link{
+    width: 22%;
+    color: red; 
+  }
+  .pic-link2{
+    width: 22%;
+  }
+  #leftForm-texteArea{
+    .ant-form-item-label{
+      white-space: pre-line;
+      text-indent: 28px;
+      text-align: left;
+      line-height: 23px;
+      padding-right: 12px;
+      font-size: 12px;
+    }
+    .ant-form-item-control-wrapper{
+      padding-right: 12px;
+      padding-bottom: 12px;
+    }
+    #title{
+      text-indent: 24px;
+    }
+  }
+  .leftForm-item-lable{
+    .ant-form-item-label{
+      padding-left: 5px;
+    }
+  }
+
+}
+
+/*工单处理界面的右边*/
+.worksheet-form-right{
+  .dis-input{
+    border: none;
+    color: rgba(0,0,0,.65);
+    background-color: white!important; 
+  }
+  .ant-form-item-label{
+    text-overflow: clip;
+    overflow: visible;
+  }
+  .text-font{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .text-align{
+    padding: 0px 0px;
+  }
+}

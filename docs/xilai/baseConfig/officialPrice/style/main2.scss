@@ -1,0 +1,69 @@
+.office-table .ant-table{
+  overflow: visible
+}
+.office-table .editable-cell {
+  position: relative;
+}
+
+.office-table .editable-cell-input-wrapper,
+.office-table .editable-cell-text-wrapper {
+  padding-right: 24px;
+}
+
+.office-table .editable-cell-text-wrapper {
+  padding: 5px 24px 5px 5px;
+}
+
+.office-table .editable-cell-icon,
+.office-table .editable-cell-icon-check {
+  position: absolute;
+  right: 0;
+  width: 20px;
+  cursor: pointer;
+}
+.office-table .editable-cell-icon{
+  right: auto;
+  margin-left: 10px;
+}
+.office-table .office-editable-cell{
+  display:inline-block;
+  white-space:nowrap;
+  overflow:hidden;
+  max-width:120px;
+  text-overflow:ellipsis;
+}
+
+.office-table .editable-cell-icon {
+  line-height: 18px;
+  // display: none;
+}
+
+.office-table .editable-cell-icon-check {
+  line-height: 28px;
+}
+
+.office-table .editable-cell:hover .editable-cell-icon {
+  display: inline-block;
+}
+
+.office-table .editable-cell-icon:hover,
+.office-table .editable-cell-icon-check:hover {
+  color: #108ee9;
+}
+/* 地址*/
+.AreaP .ant-cascader-picker-arrow{
+  z-index: auto;
+}
+
+/*table*/
+.office-table .ant-table-body .ant-table-tbody .editable-cell{
+  height: 25px;
+}
+
+.office-table .ant-popover-buttons .ant-btn-primary{
+  display: none;
+}
+
+.office-table .ant-popover-message>.anticon{
+  color: red;
+}

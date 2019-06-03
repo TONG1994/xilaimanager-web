@@ -1,0 +1,198 @@
+.chart-card-mini{
+  padding: 6px;
+  &:first-child{
+    padding-left: 0;
+  }
+  &:last-child{
+    padding-right: 0;
+  }
+  .ant-card-body{
+    padding: 12px;
+  }
+  .card-wrap{
+    display: flex;
+  }
+  .left-icon{
+    flex:0 0 80px;
+    border-radius: 50%;
+    text-align: center;
+    height: 80px;
+    color: #fff;
+    .show-icon{
+      font-size: 50px;
+      margin-top: 15px;
+    }
+  }
+  .chart-right{
+    flex:auto;
+    //background-color: #f3f3f3;
+    height:80px;
+    margin-left: 12px;
+    padding-left: 18px;
+    padding-top: 10px;
+    border-radius: 2px;
+    overflow: hidden;
+    div.title{
+      color: #999;
+    }
+    div{
+      line-height: 20px;
+      font-size: 12px;
+      color:rgba(136,136,136,1);
+      font-weight:400;
+      span{
+        margin-right: 2px;
+        font-size: 30px;
+        font-weight:400;
+        color:rgba(43,43,43,1);
+        line-height:42px;
+      }
+    }
+  }
+}
+.chart-wrap{
+  //height: 500px;
+  //background-color: #f9f9f9;
+  .chart-title{
+    flex-basis: 100%;
+    height: 50px;
+    background-color: #aaa;
+  }
+}
+.modal-title{
+  font-weight:600;
+  color:rgba(0,0,0,0.85);
+  line-height:20px;
+  font-size: 14px;
+}
+.chart-title{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 35px;
+  color: #000;
+  background-color: #ccc;
+  font-size: 14px;
+  .line{
+    display: inline-block;
+    width: 45px;
+    height: 3px;
+    vertical-align: middle;
+    border-radius: 2px;
+    margin-left: 6px;
+  }
+  .place-order{
+    @extend .line;
+    background-color: #0378FB;
+    margin-right: 20px;
+  }
+  .place-amount{
+    @extend .line;
+    background-color: #69C630;
+    margin-right: 20px;
+  }
+  .ok-order{
+    @extend .line;
+    background-color:#69C630;
+  }
+  .ok-amount{
+    @extend .line;
+    background-color: #63d067;
+  }
+}
+.chart-wrap-left{
+  display: flex;
+  display: -webkit-flex;
+  height: 100%;
+  width: 180px;
+  float: left;
+  //padding: 10px;
+  justify-content: center;
+  align-items: center;
+  div{
+    line-height: 30px;
+  }
+  .left-num{
+    font-size: 30px;
+    margin-right: 2px;
+    font-weight:400;
+    color:rgba(43,43,43,1);
+  }
+  .chart-increase{
+    color: red;
+    font-size: 7px;
+    margin-Left: 5px;
+  }
+  .chart-decrease{
+    color: #009966;
+    font-size: 7px;
+    margin-Left: 5px;
+  }
+  .chart-icon{
+    margin-right: 1px;
+  }
+}
+.chart-wrap-right{
+  //border-left:1px solid #ccc;
+  height: 402px;
+  margin-left: 180px;
+  position: relative;
+  .chart-filter{
+    position: absolute;
+    padding: 4px 12px;
+    z-index: 9;
+    right: 0;
+    top:10px;
+  }
+}
+.chart-left-title{
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default;
+}
+
+.chart-left-change{
+  width:35px;
+  height:28px;
+  background:rgba(255,255,255,1);
+  border-radius:4px 0px 0px 4px;
+  border:0.5px solid #D9D9D9;
+  display:inline-block;
+  margin-top: -5px;
+  text-align: center;
+  vertical-align: middle;
+}
+.chart-left-change:hover{
+   cursor: pointer;
+}
+.in{
+  background:rgba(234,234,234,1);
+}
+.chart-wrap-right{
+  .ant-table-thead>tr>th,.businessWatch{
+    text-align: center;
+  }
+}
+.card-container{
+  .ant-tabs-extra-content{
+    margin-top: -5px;
+  }
+  .ant-radio-button-wrapper-checked:before{
+    background:none !important;
+  }
+  .ant-radio-button-wrapper:not(:first-child):before{
+    background: none;
+    border-left:1px solid #d9d9d9;
+    width: 100%;
+    left: 0;
+    border-radius: 4px 4px 4px 4px;
+  }
+}
+
+
+
+

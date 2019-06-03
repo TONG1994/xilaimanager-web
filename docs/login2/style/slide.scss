@@ -1,0 +1,54 @@
+.valid-box{
+    width:100%;
+    height: 32px;
+    background-color: #d7d8d9;
+    border-radius: 5px;
+}
+.valid-arrow{
+    width: 40px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    left: 1px;
+    top:1px;
+    display: block;
+    text-align: center;
+    cursor:move;
+    z-index:10;
+    box-shadow: 2px 0 6px 0 rgba(0, 0, 0, .1);
+}
+.valid-arrow > span{
+    background: url(arrow.png) no-repeat center;
+    display: block;
+    width: 40px;
+    height: 32px;
+}
+.valid-arrow > span.valid-ok{
+    background: url(ok.png) no-repeat center;
+    display: block;
+    width: 40px;
+    height: 32px;
+}
+.valid-text{
+    color:#101010;
+    font-size: 12px;
+    width: 100%;
+    line-height: 32px;
+    text-align: center;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: 9;
+}
+.valid-bg{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    //background-color: #2f4c79;
+    background-image: url("./login-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 32px;
+    border-radius: 5px;
+}
